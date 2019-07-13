@@ -1,0 +1,118 @@
+
+html {
+    font-family:arial;
+}
+
+#mySvg {
+    width:1000px;
+    height:500px;
+    margin-left:20px;
+    border:1px solid black;
+    overflow: hidden;
+}
+
+#palette {
+    width:1000px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-bottom:15px;
+    margin-left:20px;
+    border:1px solid black;
+}
+
+button {
+    margin:auto;
+}
+
+#btnBlue {
+    height:12px;
+    background-color:rgb(13, 29, 216);
+}
+
+#btnRed {
+    height:12px;
+    background-color:rgb(247, 32, 32);
+}
+
+#btnYellow {
+    height:12px;
+    background-color:rgb(249, 249, 4);
+}
+
+#btnPink {
+    height:12px;
+    background-color:rgb(255, 79, 231);
+} 
+
+#btnGreen {
+    height:12px;
+    background-color:rgb(55, 155, 77);
+}
+
+#btnBlack {
+    height:12px;
+    background-color:rgb(0, 0, 0);
+}
+
+#btnGrey {
+    height:12px;
+    background-color:rgb(147, 146, 146);
+}
+
+#btnWhite {
+    height:12px;
+    background-color:rgb(255, 255, 255);
+}
+
+#btnOrange {
+    height:12px;
+    background-color:rgb(239, 152, 64);
+}
+
+#btnPurple {
+    height:12px;
+    background-color:rgb(166, 21, 214);
+}
+
+#btnIndigo {
+    height:12px;
+    background-color:rgb(130, 34, 247);
+}
+
+#btnSky {
+    height:12px;
+    background-color:rgb(126, 218, 252);
+}
+
+#btnMenthol {
+    height:12px;
+    background-color:rgb(157, 234, 174);
+}
+
+#btnRect {
+    background-color:rgb(206, 212, 207);
+}
+
+#btnLine {
+    background-color:rgb(206, 212, 207);
+}
+
+#btnPolyline {
+    background-color:rgb(206, 212, 207);
+}
+
+#btnEllipse {
+    background-color:rgb(206, 212, 207);
+}
+
+#btnDraw {
+    background-color:rgb(206, 212, 207);
+}
+
+#btnSelect {
+    background-color:rgb(206, 212, 207);
+}
+
+#btnSuppr {
+    background-color:rgb(240, 128, 128);
+}

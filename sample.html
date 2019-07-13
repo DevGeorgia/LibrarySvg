@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Sample to Library SVG</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+</head>
+<body>
+        <!-- Palette de desssin pour customiser les formes -->
+        <div id="palette">
+            <div id="palette-type">
+                <!-- Sélectionner la forme -->
+                <span>Shape : </span>
+                <button id="btnRect" value="rect">Rect</button>
+                <button id="btnLine" value="line">Line</button>
+                <button id="btnPolyline" value="polyline">Polyline</button>
+                <button id="btnDraw" value="draw">Draw</button>
+                <button id="btnEllipse" value="ellipse">Ellipse</button>
+                <!-- Sélectionner l'épaisseur -->
+                <label for="p-strokeW">Stroke Width : </label>
+                <select id="p-strokeW">
+                    <option value="1" selected="selected">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="6">6</option>
+                    <option value="8">8</option>
+                    <option value="12">12</option>
+                    <option value="16">16</option>
+                    <option value="24">24</option>
+                    <option value="32">32</option>
+                    <option value="40">40</option>
+                    <option value="48">48</option>
+                    <option value="56">56</option>
+                    <option value="64">64</option>
+                </select>
+                <span>Action : </span>
+                <button id="btnSelect" value="selection">Selection</button>
+                <button id="btnSuppr" value="delete">Supprimer</button>
+            </div>
+            <!-- Sélectionner la couleur -->
+            <div id="palette-stroke">
+                <span>Color picker : </span>
+                <button id="btnBlack" value="rgb(0, 0, 0)"></button>
+                <button id="btnGrey" value="rgb(147, 146, 146)"></button>
+                <button id="btnWhite" value="rgb(255, 255, 255)"></button>
+                <button id="btnYellow" value="rgb(249, 249, 4)"></button>
+                <button id="btnOrange" value="rgb(239, 152, 64)"></button>
+                <button id="btnRed" value="rgb(247, 32, 32)"></button>
+                <button id="btnPink" value="rgb(255, 79, 231)"></button>
+                <button id="btnPurple" value="rgb(166, 21, 214)"></button>
+                <button id="btnIndigo" value="rgb(130, 34, 247)"></button>
+                <button id="btnBlue" value="rgb(13, 29, 216)"></button>
+                <button id="btnSky" value="rgb(126, 218, 252)"></button>
+                <button id="btnMenthol" value="rgb(157, 234, 174)"></button>
+                <button id="btnGreen" value="rgb(55, 155, 77)"></button>
+
+            </div>
+        </div>
+        <!-- Conteneur du SVG pour dessiner-->
+        <div id="mySvg">
+
+        </div>
+</body>
+</html>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+
+<script src='js/LibrarySVG/Config/config.js'></script>
+<script src='js/LibrarySVG/lib.js'></script>
+<script src="js/LibrarySVG/Managers/SvgManager.js"></script>
+<script src="js/LibrarySVG/Managers/ShapeManager.js"></script>
+<script src="js/LibrarySVG/Services/InputClient.js"></script>
+<script src="js/LibrarySVG/Services/ShapePalette.js"></script>
+<script src="js/LibrarySVG/Entities/Ellipse.js"></script>
+<script src="js/LibrarySVG/Entities/Line.js"></script>
+<script src="js/LibrarySVG/Entities/Polyline.js"></script>
+<script src="js/LibrarySVG/Entities/Rect.js"></script>
+<script src="js/LibrarySVG/Entities/Svg.js"></script>
+
+       
